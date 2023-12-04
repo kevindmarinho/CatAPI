@@ -11,6 +11,10 @@
 		2843D76B2B1968A90093713F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843D76A2B1968A90093713F /* ContentView.swift */; };
 		2843D76D2B1968AA0093713F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2843D76C2B1968AA0093713F /* Assets.xcassets */; };
 		2843D7702B1968AA0093713F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2843D76F2B1968AA0093713F /* Preview Assets.xcassets */; };
+		2843D77A2B19694B0093713F /* CatImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843D7792B19694B0093713F /* CatImage.swift */; };
+		2843D77D2B196C230093713F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843D77C2B196C230093713F /* Helpers.swift */; };
+		2843D77F2B1AB14B0093713F /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843D77E2B1AB14B0093713F /* CatViewModel.swift */; };
+		2843D7812B1AB33A0093713F /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843D7802B1AB33A0093713F /* CatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		2843D76A2B1968A90093713F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2843D76C2B1968AA0093713F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2843D76F2B1968AA0093713F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2843D7792B19694B0093713F /* CatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImage.swift; sourceTree = "<group>"; };
+		2843D77C2B196C230093713F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2843D77E2B1AB14B0093713F /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		2843D7802B1AB33A0093713F /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		2843D7672B1968A90093713F /* CatAPI */ = {
 			isa = PBXGroup;
 			children = (
+				2843D77B2B196C150093713F /* Helpers */,
+				2843D7782B1968FF0093713F /* ViewModel */,
+				2843D7772B1968F70093713F /* View */,
+				2843D7762B1968E80093713F /* Model */,
 				2843D7682B1968A90093713F /* CatAPIApp.swift */,
 				2843D76A2B1968A90093713F /* ContentView.swift */,
 				2843D76C2B1968AA0093713F /* Assets.xcassets */,
@@ -65,6 +77,38 @@
 				2843D76F2B1968AA0093713F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2843D7762B1968E80093713F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2843D7792B19694B0093713F /* CatImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2843D7772B1968F70093713F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2843D7802B1AB33A0093713F /* CatView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2843D7782B1968FF0093713F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2843D77E2B1AB14B0093713F /* CatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2843D77B2B196C150093713F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2843D77C2B196C230093713F /* Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2843D77A2B19694B0093713F /* CatImage.swift in Sources */,
+				2843D77D2B196C230093713F /* Helpers.swift in Sources */,
 				2843D76B2B1968A90093713F /* ContentView.swift in Sources */,
+				2843D77F2B1AB14B0093713F /* CatViewModel.swift in Sources */,
 				2843D7692B1968A90093713F /* CatAPIApp.swift in Sources */,
+				2843D7812B1AB33A0093713F /* CatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

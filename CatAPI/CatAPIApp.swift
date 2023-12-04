@@ -11,7 +11,7 @@ import SwiftUI
 struct CatAPIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CatView()
         }
     }
 }
